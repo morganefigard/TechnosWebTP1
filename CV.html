@@ -1,9 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title>CV Morgane Figard</title>
 </head>
 <body>
-
+	<div class="header">
+		<h1>Morgane Figard</h1>
+		<ul>
+			<li>Formation</li>
+			<li>Expériences professionnelles</li>
+			<li>Projets</li>
+			<li>Compétences</li>
+		</ul>
+	</div>
+	<main>
+		<h2>Formation</h2>
+		<table>	
+			<tr>
+				<td>
+					<p class="ecole">ECE Paris.Lyon Ecole d'Ingénieurs</p>
+				</td>
+				<td>
+					<p class="date">Mars 2016 - Janvier 2020</p>
+				</td>				
+			</tr>
+			<tr>
+				<td>
+					<p class="lieu">Paris 15e</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>Description</p>
+				</td>
+			</tr>
+		</table>
+	</main>
+	<footer>
+		<p>Mon profil vous intéresse ? Contactez-moi !</p>
+		<form>
+			<label for="nom">Nom :</label>
+			<input type="text" placeholder="ex: Jean Dupont" name="nom">
+			<label for="email">Email :</label>
+			<input type="text" placeholder="ex: jean.dupont@email.com" name="email" required="true">
+			<br />
+			<label for="message">Message :</label><br />
+			<textarea name="message" placeholder="Votre message..." rows="3" cols="50"></textarea>
+			<br />
+			<button>Envoyer</button>
+		</form>
+	</footer>
 </body>
 </html>
