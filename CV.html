@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<link rel="stylesheet" type="text/css" href="cv_stylesheet.css">
 	<title>CV Morgane Figard</title>
 </head>
 <body>
-	<div class="header">
+	<header>
 		<h1>Morgane Figard</h1>
-		<ul>
-			<li>Formation</li>
-			<li>Expériences professionnelles</li>
-			<li>Projets</li>
-			<li>Compétences</li>
+		<ul class="nav">
+			<li class="nav-item">Formation</li>
+			<li class="nav-item">Expériences professionnelles</li>
+			<li class="nav-item">Projets</li>
+			<li class="nav-item">Compétences</li>
 		</ul>
-	</div>
+	</header>
 	<main>
 		<h2>Formation</h2>
-		<table>	
-			<tr>
-				<td>
-					<p class="ecole">ECE Paris.Lyon Ecole d'Ingénieurs</p>
-				</td>
-				<td>
-					<p class="date">Mars 2016 - Janvier 2020</p>
-				</td>				
-			</tr>
-			<tr>
-				<td>
-					<p class="lieu">Paris 15e</p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<p>Description</p>
-				</td>
-			</tr>
-		</table>
+		<div class="formation">
+			<h3 class="titre">ECE Paris.Lyon Ecole d'Ingénieurs</h3>
+			<p class="sstitre">Mars 2016 - Janvier 2020 • Paris 15e</p>
+			<p>Description</p>
+		</div>
+		<div class="formation">
+			<h3 class="titre">Malmö Universitet</h3>
+			<p class="sstitre">Août 2017 - Janvier 2018 • Malmö, Suède</p>
+			<p>Description</p>
+		</div>
 	</main>
 	<footer>
 		<p>Mon profil vous intéresse ? Contactez-moi !</p>
@@ -43,10 +34,8 @@
 			<input type="text" placeholder="ex: Jean Dupont" name="nom">
 			<label for="email">Email :</label>
 			<input type="text" placeholder="ex: jean.dupont@email.com" name="email" required="true">
-			<br />
-			<label for="message">Message :</label><br />
-			<textarea name="message" placeholder="Votre message..." rows="3" cols="50"></textarea>
-			<br />
+			<label for="message">Message :</label>
+			<textarea name="message" placeholder="Votre message..." rows="1" cols="50"></textarea>
 			<button>Envoyer</button>
 		</form>
 	</footer>
