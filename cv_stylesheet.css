@@ -1,17 +1,14 @@
 footer {
-	background-color: lightblue;
+	/*background-color: #d1fff3;*/
+	background-color: #e8fff8;
 	text-align: center;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #d1fff3;
 }
 
 header {
 	text-align: center;
-}
-
-div {
-	text-align: center;
-	background-color: white;
-	margin-left: 15%;
-	margin-right: 15%;
 }
 
 main {
@@ -28,11 +25,15 @@ main {
 }
 
 .titre {
-	background-color: #d6d6d6;
+	/*background-color: #d6d6d6;*/
+	background-color: #d1fff3;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #4f4f4f;
 }
 
 .nav {
@@ -58,6 +59,10 @@ main {
 }
 
 .formation {
+	text-align: center;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -78,4 +83,15 @@ h2 {
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
+}
+
+.contact {
+	padding-top: 0%;
+	list-style-type: none;
+  	margin-right: 3%;
+  	margin-top: 0px;
+}
+
+.contact-item {
+	display: inline;
 }

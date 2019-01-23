@@ -39,15 +39,17 @@
 		</div>
 	</main>
 	<footer>
-		<p>Mon profil vous intéresse ? Contactez-moi !</p>
+		<p style="padding-top: 0.5%; margin-top: 0.5%;">Mon profil vous intéresse ? <strong>Contactez-moi !</strong></p>
 		<form>
-			<label for="nom">Nom :</label>
-			<input type="text" placeholder="ex: Jean Dupont" name="nom">
-			<label for="email">Email :</label>
-			<input type="text" placeholder="ex: jean.dupont@email.com" name="email" required="true">
-			<label for="message">Message :</label>
-			<textarea name="message" placeholder="Votre message..." rows="1" cols="50"></textarea>
-			<button>Envoyer</button>
+			<ul class="contact">
+				<li class="contact-item">Nom :</li>
+				<li class="contact-item" style="margin-right: 1%;"><input type="text" placeholder="ex: Jean Dupont"></li>
+				<li class="contact-item">Email* :</li>
+				<li class="contact-item" style="margin-right: 1%;"><input type="text" placeholder="ex: jean.dupont@email.com" required="true"></li>
+				<li class="contact-item">Message :</li>
+				<li class="contact-item" style="margin-right: 1%;"><textarea name="message" placeholder="Votre message..." rows="2" cols="50"></textarea></li>
+				<li class="contact-item"><button>Envoyer</button></li>
+			</ul>
 		</form>
 	</footer>
 </body>
