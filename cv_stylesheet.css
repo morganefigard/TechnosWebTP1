@@ -17,6 +17,12 @@ header {
 	text-align: center;
 }
 
+h1 {
+	padding-left: 10px;
+	font-size: 300%;
+	margin-bottom: 0px;
+}
+
 main {
 	text-align: center;
 }
