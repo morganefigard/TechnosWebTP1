@@ -1,20 +1,9 @@
-ul {
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-}
-
-li {
-	display: inline;
-}
-
 footer {
 	background-color: lightblue;
 	text-align: center;
 }
 
 header {
-	background-color: lightblue;
 	text-align: center;
 }
 
@@ -45,9 +34,10 @@ main {
 }
 
 .nav {
-	background-color: grey;
 	padding-top: 1.5%;
 	padding-bottom: 1.5%;
+	list-style-type: none;
+  	margin: 0;
 }
 
 .nav-item {
@@ -59,10 +49,9 @@ main {
 	padding-bottom: 1.5%;
 	padding-left: 2%;
 	padding-right: 2%;
-}
-
-h1 {
-	padding-top: 2%;
+	margin: -2px;
+	background-color: white;
+	display: inline;
 }
 
 .formation {
